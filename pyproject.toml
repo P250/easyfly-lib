@@ -1,0 +1,33 @@
+[build-system]
+
+requires = ["setuptools>=80", "setuptools-scm>=8"] # As recommended by setuptools-scm user guide 
+build-backend = "setuptools.build_meta"
+
+
+[project]
+
+name = "CHANGE-LATER-PLS"
+authors = [
+    {name = "Christian Lijs", email = "gppl0977@leeds.ac.uk"},
+]
+
+dynamic = ["version"]
+
+#TODO ADD LICENSE FILE :)
+
+# Numpy requires Python >=3.12, and I wish to use the latest stable version 3.14.3,
+# so a sensible lower bound is the major version 3.14!
+requires-python = ">= 3.14"
+
+# Just in case our project somehow tries to get uploaded to PyPI.
+classifiers = [
+    "Private :: Reject Upload",
+]
+
+dependencies = [
+    "numpy" # Not specifying a version number ensures we are always using the latest numpy.
+]
+
+
+# Probably optional but we explicitly enable setuptools-scm
+[tool.setuptools_scm] 
