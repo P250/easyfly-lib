@@ -1,2 +1,4 @@
 .vscode/
 .venv/
+editable_install_playground_src/
+build/
