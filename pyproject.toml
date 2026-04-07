@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 
-name = "CHANGE-LATER-PLS"
+name = "easyflylib"
 authors = [
     {name = "Christian Lijs", email = "gppl0977@leeds.ac.uk"},
 ]
