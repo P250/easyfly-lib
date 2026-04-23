@@ -2,3 +2,7 @@
 .venv/
 editable_install_playground_src/
 build/
+build.ps1
+dist/
+src/easyfly/__pycache__/
+data/

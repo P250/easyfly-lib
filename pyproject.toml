@@ -15,7 +15,7 @@ dynamic = ["version"]
 
 #TODO ADD LICENSE FILE :)
 
-# Numpy requires Python >=3.12, and I wish to use the latest stable version 3.14.3,
+# Numpy requires Python >=3.12 anyway, and I wish to use the latest stable version 3.14.3,
 # so a sensible lower bound is the major version 3.14!
 requires-python = ">= 3.14"
 
@@ -30,4 +30,4 @@ dependencies = [
 
 
 # Probably optional but we explicitly enable setuptools-scm
-[tool.setuptools_scm] 
+[tool.setuptools_scm]
